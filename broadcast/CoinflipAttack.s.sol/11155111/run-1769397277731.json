@@ -1,0 +1,54 @@
+{
+  "transactions": [
+    {
+      "hash": "0x615bd211edc08b341a1184b2ee3fb3b0df9a9909573d2246a638d01773a5f838",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x4895cdb90360de208b5f301515ca235f3e99c5e1",
+      "function": "flip(bool)",
+      "arguments": [
+        "false"
+      ],
+      "transaction": {
+        "from": "0xb3650a602767b3312bc542019f572c3a0f407ab5",
+        "to": "0x4895cdb90360de208b5f301515ca235f3e99c5e1",
+        "gas": "0xc21d",
+        "value": "0x0",
+        "input": "0x1d263f670000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": "0x23",
+        "chainId": "0xaa36a7"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0x318c47",
+      "logs": [],
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0x615bd211edc08b341a1184b2ee3fb3b0df9a9909573d2246a638d01773a5f838",
+      "transactionIndex": "0x1f",
+      "blockHash": "0xa79387cd9e743df205f8ca0f6bf4ecdd0718900a8abbf9c5886fdb83f86b06a7",
+      "blockNumber": "0x9a7dde",
+      "gasUsed": "0x84bb",
+      "effectiveGasPrice": "0x409d648c",
+      "from": "0xb3650a602767b3312bc542019f572c3a0f407ab5",
+      "to": "0x4895cdb90360de208b5f301515ca235f3e99c5e1",
+      "contractAddress": null
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {
+    "0": {
+      "internal_type": "contract CoinFlip",
+      "value": "0x4895cdB90360De208B5f301515CA235f3e99C5e1"
+    }
+  },
+  "timestamp": 1769397277731,
+  "chain": 11155111,
+  "commit": "374ff25"
+}

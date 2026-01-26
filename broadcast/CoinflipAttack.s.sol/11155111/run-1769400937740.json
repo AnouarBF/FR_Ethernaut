@@ -1,0 +1,54 @@
+{
+  "transactions": [
+    {
+      "hash": "0x63667028739665b56d9900d5fef488e3cae66a4a95c2bd9074161212244c7865",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x4895cdb90360de208b5f301515ca235f3e99c5e1",
+      "function": "flip(bool)",
+      "arguments": [
+        "false"
+      ],
+      "transaction": {
+        "from": "0xb3650a602767b3312bc542019f572c3a0f407ab5",
+        "to": "0x4895cdb90360de208b5f301515ca235f3e99c5e1",
+        "gas": "0x11398",
+        "value": "0x0",
+        "input": "0x1d263f670000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": "0x30",
+        "chainId": "0xaa36a7"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0x3b3cd1",
+      "logs": [],
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0x63667028739665b56d9900d5fef488e3cae66a4a95c2bd9074161212244c7865",
+      "transactionIndex": "0x28",
+      "blockHash": "0x18266a8b8e7386d1713bfb7bc56f6769678010f2032759b32e9e3dca061003a3",
+      "blockNumber": "0x9a7f0f",
+      "gasUsed": "0xc787",
+      "effectiveGasPrice": "0x3bac4c35",
+      "from": "0xb3650a602767b3312bc542019f572c3a0f407ab5",
+      "to": "0x4895cdb90360de208b5f301515ca235f3e99c5e1",
+      "contractAddress": null
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {
+    "0": {
+      "internal_type": "contract CoinFlip",
+      "value": "0x4895cdB90360De208B5f301515CA235f3e99C5e1"
+    }
+  },
+  "timestamp": 1769400937740,
+  "chain": 11155111,
+  "commit": "374ff25"
+}
