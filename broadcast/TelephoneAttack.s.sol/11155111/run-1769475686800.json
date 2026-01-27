@@ -1,0 +1,54 @@
+{
+  "transactions": [
+    {
+      "hash": "0x71cb0e7086549464472d1e20c4703f66ebdf7a3d5eb4196b17449507236d77db",
+      "transactionType": "CALL",
+      "contractName": "AttackContract",
+      "contractAddress": "0xc7f2cf4845c6db0e1a1e91ed41bcd0fcc1b0e141",
+      "function": "attack(address)",
+      "arguments": [
+        "0xb3650a602767B3312bC542019F572c3a0F407aB5"
+      ],
+      "transaction": {
+        "from": "0xb3650a602767b3312bc542019f572c3a0f407ab5",
+        "to": "0xc7f2cf4845c6db0e1a1e91ed41bcd0fcc1b0e141",
+        "gas": "0x7722",
+        "value": "0x0",
+        "input": "0xd018db3e000000000000000000000000b3650a602767b3312bc542019f572c3a0f407ab5",
+        "nonce": "0x38",
+        "chainId": "0xaa36a7"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0x397f15",
+      "logs": [],
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0x71cb0e7086549464472d1e20c4703f66ebdf7a3d5eb4196b17449507236d77db",
+      "transactionIndex": "0x21",
+      "blockHash": "0x4c5c61aa53696653a538e6a9d6fcc6390740ca743558783b784d4ba441f5ce42",
+      "blockNumber": "0x9a96bf",
+      "gasUsed": "0x5640",
+      "effectiveGasPrice": "0x43126a0b",
+      "from": "0xb3650a602767b3312bc542019f572c3a0f407ab5",
+      "to": "0xc7f2cf4845c6db0e1a1e91ed41bcd0fcc1b0e141",
+      "contractAddress": null
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {
+    "0": {
+      "internal_type": "contract Telephone",
+      "value": "0xdbea018B05D63A30546B9Bc5207e5a15D28792C5"
+    }
+  },
+  "timestamp": 1769475686800,
+  "chain": 11155111,
+  "commit": "0158f3c"
+}
