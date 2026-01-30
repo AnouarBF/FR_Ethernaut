@@ -1,0 +1,60 @@
+{
+  "transactions": [
+    {
+      "hash": "0x1d353158298cc64817c22afbc20f1477acc0de4285c3a83c22d95e4653e8b451",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0xf58bd094e3ea9ac06c88c5177c51411882b0ccd4",
+      "function": "pwn()",
+      "arguments": [],
+      "transaction": {
+        "from": "0xb3650a602767b3312bc542019f572c3a0f407ab5",
+        "to": "0xf58bd094e3ea9ac06c88c5177c51411882b0ccd4",
+        "gas": "0xa85c",
+        "value": "0x0",
+        "input": "0xdd365b8b",
+        "nonce": "0x42",
+        "chainId": "0xaa36a7"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0x724190",
+      "logs": [],
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0x1d353158298cc64817c22afbc20f1477acc0de4285c3a83c22d95e4653e8b451",
+      "transactionIndex": "0x48",
+      "blockHash": "0x7f293f3af60f909e621c46b233631a4701befcb44f3b15aa29996d6c83890bc9",
+      "blockNumber": "0x9ae9f3",
+      "gasUsed": "0x79e4",
+      "effectiveGasPrice": "0x43b64b62",
+      "from": "0xb3650a602767b3312bc542019f572c3a0f407ab5",
+      "to": "0xf58bd094e3ea9ac06c88c5177c51411882b0ccd4",
+      "contractAddress": null
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {
+    "1": {
+      "internal_type": "contract Delegate",
+      "value": "0x0000000000000000000000000000000000000000"
+    },
+    "0": {
+      "internal_type": "contract Delegation",
+      "value": "0xf58bD094E3eA9aC06C88C5177C51411882b0Ccd4"
+    },
+    "2": {
+      "internal_type": "address",
+      "value": "0x9dF0C6b0066D5317aA5b38B36850548DaCCa6B4e"
+    }
+  },
+  "timestamp": 1769740092553,
+  "chain": 11155111,
+  "commit": "31a51c3"
+}

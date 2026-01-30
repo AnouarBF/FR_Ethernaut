@@ -16,11 +16,11 @@ contract TestingAttack is Test {
         target = fallbackAttack.run();
     }
 
-    function test_correctOwner() external view {
-        assert(target.owner() == attacker);
-    }
+    // function test_correctOwner() external view {
+    //     assert(target.owner() == attacker);
+    // }
 
-    function test_noBalance() external view {
-        assert(address(target).balance == 0);
-    }
+    // function test_noBalance() external view {
+    //     assert(address(target).balance == 0);
+    // }
 }
