@@ -19,10 +19,11 @@ contract DelegationAttackTest is Test {
         console.log("Delegation Contract Address: ", address(delegation));
         console.log("Delegate Contract Address: ", address(delegate));
         console.log("Attacker Address: ", attacker);
+        console.log("Attack Contract Address: ", address(attack));
     }
 
     function test_CorrectDelegateOwner() external view {
-        assert(delegate.owner() == attacker);
+        assert(delegate.owner() == address(attacker));
     }
 
     function test_pwn() external {

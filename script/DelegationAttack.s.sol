@@ -16,8 +16,10 @@ contract DelegationAttack is Script {
             target = vm.envAddress("DELEGATION_TARGET");
             delegation = Delegation(target);
         } else if (block.chainid == 31337 && address(target) == address(0)) {
+            vm.startBroadcast();
             delegate = new Delegate(attacker);
             delegation = new Delegation(address(delegate));
+            vm.stopBroadcast();
         }
 
         vm.startBroadcast(); ////////////////////////////////////////////
